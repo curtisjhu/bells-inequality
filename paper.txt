@@ -1,0 +1,48 @@
+
+Theory
+
+
+S = 
+
+
+Setup.
+
+
+
+
+Procedure
+
+\textbf{Alignment} First and foremost, we had to make sure our blue-violet laser beam path was aligned. Since our fiber has a core of 1 micrometer, we need precision. We'll remove the len's protective cover and the half waveplates and shoot a low energy infrared laser from the fiber optic cables through the detectors and backwards through our beam paths. We need the infrared paths to converge onto a single point on the BBOs so using a thin piece of paper we adjust the detector (xy \theta) to match the violet dot (set to a very low wattage) exiting the BBOs.
+
+
+We'll align more by adjusting the detector arms themselves. Since the BBOs emit photon pairs in a cone shape, we'll need our detector lens to be perfectly within that cone. By running the LabView program, we adjust this angle until we maximize our counts on each arm A and B'.
+
+\textbf{Bell State Purity} We'll try to optimize our Bell state with an arbitrary offset. We basically rotated the halfwave plates on each detector arm to maximize the coincidence of AB'. 
+
+The polarizing beam splitter should allow only a beam of linearly polarized light on its optical axis?? through. If both are setup correctly, this will be both linearized light in the same direction. Hence getting |VV> for example. The BBOs are rotated 90 so they spit out photons pairs |VV> and |HH>. The idea is that the some of the photons in the beam will hit the first BBO and produce say |HH> while some of the photons will hit the second photon, which is at a perfect 90 degrees and produce |VV>. Most of the violet beam will pass through.
+
+Using this understanding, we'll rotate the halfwave plate to maximize the |VV> state. Rotate each of the half wave plates to maximize the count on that arm. This means the photon's polarization vector is most aligned with the PBS optical axis. For these values we got A=-2 and B'=2. Almost 0 which appears correct since the BBOs are pretty well horizontally aligned.
+
+
+[phase shift and first half wave plate here]
+
+
+We then test the purity of our Bell State by reading the values of adjusting the half wave plate as seen below.
+
+
+[graph here]
+
+analysis
+
+
+We'll then attempt to violate the Bell's Inequality.
+
+
+
+
+
+
+
+
+
+
